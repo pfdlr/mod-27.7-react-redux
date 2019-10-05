@@ -7,8 +7,9 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './Reducer';
 import { addComment } from "./Actions";
+import { composeWithDevTools } from 'redux-devtools-extension';
 
-const store = createStore(reducer);
+const store = createStore(reducer, composeWithDevTools());
 
 ReactDOM.render(
     <Provider store={store}>

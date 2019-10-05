@@ -20,3 +20,18 @@
 .App-link {
   color: #09d3ac;
 }
+ul {
+  width: 300px;
+  margin: 50px auto;
+}
+button {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(143, 207, 143);
+  border: none;
+  margin: 5px;
+}
+button:hover {
+  background-color: rgb(70, 114, 68);
+  color: white;
+}
